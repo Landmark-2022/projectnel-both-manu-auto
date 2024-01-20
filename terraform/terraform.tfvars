@@ -15,7 +15,7 @@ ami  = "ami-024e6efaf93d85776" # ubuntu image
 type = "t3.medium"
 
 # RDS
-identifier     = "gym"
+identifier     = "docupet"
 instance_class = "db.t3.medium"
 storage_type   = "gp2"
 db_storage     = 20
@@ -25,5 +25,5 @@ username       = "admin"
 db_password    = "Password0123"
 
 # key-pair
-home_dir = "/home/dhan"
+home_dir = "/home/ec2-user"
 key_name = "lamp-test"

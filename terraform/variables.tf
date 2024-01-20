@@ -77,7 +77,7 @@ variable "az3" {
 # RDS
 variable "identifier" {
   type        = string
-  default     = "gym"
+  default     = "docupet"
   description = "Name of your DB cluster"
 }
 
