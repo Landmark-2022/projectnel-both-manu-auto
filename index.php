@@ -78,7 +78,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 			<div class="row">
 				        <?php 
 
-$sql ="SELECT id, category, titlename, PackageType, PackageDuratiobn, Price, uploadphoto, Description, create_date from tbladdpackage";
+$sql ="SELECT id, category, titlename, PackageType, NumberOfPets, Price, uploadphoto, Description, create_date from tbladdpackage";
 $query= $dbh -> prepare($sql);
 $query-> execute();
 $results = $query -> fetchAll(PDO::FETCH_OBJ);
@@ -95,7 +95,7 @@ foreach($results as $result)
 						</div>
 						<div class="pi-price">
 							<h3><?php echo htmlentities($result->Price);?></h3>
-							<p>	<?php echo $result->PackageDuratiobn;?></p>
+							<p>	<?php echo $result->NumberOfPets;?></p>
 						</div>
 						<ul>
 							<?php echo $result->Description;?>
