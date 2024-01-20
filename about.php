@@ -76,7 +76,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 			<div class="row">
 
 				<div class="col-lg-12 col-sm-6">
-			<p>Hola amigos! We are a bunch of curious and intellectual professionals who out of boredom from the monotonous routine, established Brand Beavers in Mumbai to emerge as problem solvers. Our team of entrepreneurs, thinkers, strategists, designers, and technologists will help you to emerge as an effective and disruptive brand all over the globe. Our brainstorming and amicable individuals go beyond their comfort zone to satisfy the customer’s requirements.</p>
+			<p>Welcome to Docupet - My Furry Friend, where we celebrate the extraordinary bond between pets and their owners. At Docupet - My Furry Friend, we understand that pets are cherished members of the family, deserving the best care and attention. With a passion for promoting responsible pet ownership, we offer a range of licensing packages to ensure the safety, happiness, and well-being of your furry friends. Our commitment goes beyond providing essential identification; we strive to enhance the overall pet ownership experience. Whether you choose our Essential PawPrint License for standard security or opt for the Purrfection Plus License with exclusive perks, or embark on adventurous journeys with the Adventure Tails Explorer License, we are dedicated to being your partner in creating unforgettable moments with your pets. Join us at Docupet - My Furry Friend, where every license signifies a promise of love, care, and a lifetime of joy with your beloved companions.</p>
 				</div>
 			</div>
 		</div>
