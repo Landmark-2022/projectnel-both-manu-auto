@@ -58,7 +58,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 m-auto text-white">
-					<h2>My Furry Friend</h2>
+					<h2>Docupet for My Furry Friend</h2>
 					<p>Pet and License: Ensuring Happy Tails and Safe Trails!</p>
 				</div>
 			</div>
@@ -73,7 +73,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 			<div class="section-title text-center">
 				<img src="img/icons/logo-icon.png" alt="">
 				<h2>Licensing plans</h2>
-				<p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+				<p>License Your Pet, Let the Adventures Begin!</p>
 			</div>
 			<div class="row">
 				        <?php 
