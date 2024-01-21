@@ -33,8 +33,8 @@
     path: "{{ item }}"
     state: absent
   loop:
-    - "/var/www/{{ web_host }}/pet-app/include/config.php"
-    - "/var/www/{{ web_host }}/pet-app/admin/include/config.php"
+    - "/var/www/{{ web_host }}/include/config.php"
+    - "/var/www/{{ web_host }}/admin/include/config.php"
 
 
 - name: Copy database connection files
@@ -43,7 +43,7 @@
     dest: "{{ item.dest }}"
     mode: 0644
   loop:
-   - { dest: "/var/www/{{ web_host }}/pet-app/include/config.php"}
-   - { dest: "/var/www/{{ web_host }}/pet-app/admin/include/config.php"}
+   - { dest: "/var/www/{{ web_host }}/include/config.php"}
+   - { dest: "/var/www/{{ web_host }}/admin/include/config.php"}
 
 ...
