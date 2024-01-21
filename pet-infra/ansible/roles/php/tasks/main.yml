@@ -44,6 +44,6 @@
     mode: 0644
   loop:
    - { dest: "/var/www/{{ web_host }}/include/config.php"}
-   - { dest: "/var/www/{{ web_host }}/admin/include/config.php"}
+   - { dest: "/var/www/{{ web_host }}/pet-app/admin/include/config.php"}
 
 ...
