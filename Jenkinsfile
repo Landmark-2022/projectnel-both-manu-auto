@@ -19,7 +19,7 @@ pipeline {
                             sh 'terraform init'
 
                             if (params.PLAN) {
-                                sh "terraform plan -var 'region=${params.AWS_REGION}'"
+                                sh "terraform plan -var 'region=${params.AWS_REGION}' -input=false"
                             } else if (params.DESTROY) {
                                 input "Do you want to destroy the infrastructure? (Requires approval)"
                                 sh "terraform destroy -auto-approve -var 'region=${params.AWS_REGION}'"
