@@ -34,7 +34,7 @@
     state: absent
   loop:
     - "/var/www/{{ web_host }}/include/config.php"
-    - "/var/www/{{ web_host }}/admin/include/config.php"
+    - "/var/www/{{ web_host }}/pet-app/admin/include/config.php"
 
 
 - name: Copy database connection files
