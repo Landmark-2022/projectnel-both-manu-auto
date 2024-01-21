@@ -71,7 +71,7 @@ CREATE TABLE `tbladdpackage` (
 INSERT INTO `tbladdpackage` (`id`, `category`, `titlename`, `PackageType`, `NumberOfPets`, `Price`, `uploadphoto`, `Description`, `create_date`) VALUES
 (1, '1', 'Essential PawPrint License', '1', '1 Furry Friend', '299', NULL, 'Standard identification and registration for responsible pet ownership, ensuring safety and peace of mind.', '2022-03-05 02:55:34'),
 (2, '1', 'Purrfection Plus License', '1', 'Up to 3 Furry Friends', '499', NULL, 'Elevate your pet\'s experience with exclusive grooming discounts, personalized tags, and quarterly wellness checks', '2022-03-05 02:56:44'),
-(3, '1', 'Adventure Tails Explorer License', '1', 'Soccer size Furry Friends', '999', NULL, 'Unlock exclusive access to pet-friendly events, excursions, and a community of fellow enthusiasts for an adventurous companionship.<div><br></div><div>A journey of fun!</div>', '2022-05-22 02:34:08');
+(3, '1', 'Adventure Tails Explorer License', '1', 'Soccer size Furry Friends', '999', NULL, 'Unlock exclusive access to pet-friendly events, excursions, and a community of fellow enthusiasts<div><br></div><div>A journey of fun!</div>', '2022-05-22 02:34:08');
 
 -- --------------------------------------------------------
 
