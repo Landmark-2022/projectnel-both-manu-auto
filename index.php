@@ -58,7 +58,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 m-auto text-white">
-					<h2>Docupet - My Furry's Friend</h2>
+					<h2>Docupet My Furry's Friend</h2>
 					<p>Pet and License: Ensuring Happy Tails and Safe Trails!</p>
 				</div>
 			</div>
