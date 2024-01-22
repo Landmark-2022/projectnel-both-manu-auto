@@ -16,7 +16,7 @@ pipeline {
                     withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'AWS_cred', accessKeyVariable: 'AWS_ACCESS_KEY_ID', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
                         // Change to your Terraform directory
                         dir('1-pet-infra/terraform') {
-                            sh 'terraform init'
+                            sh 'terraform init -input=false'
 
                             if (params.PLAN) {
                                 sh "terraform plan -var 'region=${params.AWS_REGION}' -input=false"
